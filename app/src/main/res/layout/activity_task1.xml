@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ActivityTask3">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#F3FB7E">
+
+        <FrameLayout
+            android:id="@+id/colot_frame"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="198dp"
+            android:layout_marginEnd="0dp"
+            android:background="#BC1515">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textViewTask1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="74dp"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewTask1"
+            android:layout_width="164dp"
+            android:layout_height="192dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/image2" />
+
+        <Button
+            android:id="@+id/buttonTask1"
+            android:layout_width="88dp"
+            android:layout_height="74dp"
+            android:layout_below="@+id/colot_frame"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTask1"
+            android:layout_width="88dp"
+            android:layout_height="74dp"
+            android:layout_below="@+id/colot_frame"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:srcCompat="@android:drawable/presence_busy" />
+
+        <!--        android:layout_width="137dp"-->
+        <!--        android:layout_height="143dp"-->
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3FB7E"
+    tools:context=".Constraint">
+
+    <TextView
+        android:id="@+id/textViewTask3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewTask3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewTask3"
+        android:layout_width="164dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/buttonTask3"
+        android:layout_width="88dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTask3"
+        android:layout_width="88dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonTask3" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="415dp"
+        android:layout_height="339dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTask3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTask3">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
